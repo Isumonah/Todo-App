@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    width: 90%;
+    max-width: 720px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto ;
+    height: 90%;
+    background-color: white;
+}
+button,
+input{
+    font-size: 16px;
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.tasks-p{
+    margin: 20px 0 35px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.input-task{
+    width: 400px;
+    max-width: 500px;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.add-task{
+    width: 400px;
+    max-width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.task-checkbox{
+    margin-right: 30px;
+}
+
+.task-section {
+    display: flex;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+
+.task-section + .task-section {
+    margin-top: 35px
+    }
+
+    .task-section > div {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .task-text {
+        display: inline-block;
+        min-width: 400px;
+        text-align: start;
+        margin-right: 20px;
+        word-wrap: break-word;
+    
+
+    }
+
+.task-action,
+.saveBtn {
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    font-size: 12px;
+    
+}
+
+#edit-btn,
+#delete-btn,
+.saveBtn{
+    font-size: 15px;
+    width: 110px;
+}
+
+#edit-btn{
+    background-color: blue;
+    color: white;
+  
+}
+
+
+#delete-btn {
+    background-color: purple;
+    color: white;
+   
+}
+
+.saveBtn{
+    background-color: green;
+}
+
+.task-action-div{
+    display: flex;
+}
+
+    
