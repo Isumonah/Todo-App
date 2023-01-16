@@ -14,7 +14,7 @@ body{
     padding: 20px;
     text-align: center;
     margin: 20px auto ;
-    height: 90%;
+    min-height: 90%;
     background-color: white;
 }
 button,
